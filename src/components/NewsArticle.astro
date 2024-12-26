@@ -1,0 +1,46 @@
+---
+interface Props {
+	title: string;
+	date: string;
+	summary: string;
+	isMainStory?: boolean;
+}
+
+const { title, date, summary, isMainStory = false } = Astro.props;
+---
+
+<article class={`news-article ${isMainStory ? 'main-story' : ''}`}>
+	<h3 class="article-title">{title}</h3>
+	<p class="article-date">{date}</p>
+	<p class="article-summary">{summary}</p>
+</article>
+
+<style>
+	.news-article {
+		border-bottom: 1px solid #ddd;
+		padding: 1rem 0;
+	}
+	.article-title {
+		font-family: var(--font-serif);
+		font-size: 1.5rem;
+		margin: 0 0 0.5rem 0;
+		font-weight: 700;
+	}
+	.article-date {
+		font-style: italic;
+		font-size: 0.9rem;
+		margin: 0 0 0.5rem 0;
+		color: #444;
+	}
+	.article-summary {
+		font-size: 1rem;
+		line-height: 1.6;
+		margin: 0;
+	}
+	.main-story .article-title {
+		font-size: 2rem;
+	}
+	.main-story .article-summary {
+		font-size: 1.1rem;
+	}
+</style>

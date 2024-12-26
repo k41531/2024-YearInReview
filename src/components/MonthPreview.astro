@@ -1,0 +1,77 @@
+---
+import type { Week } from '../utils/newsHelpers';
+import { organizeWeeklyPreviews } from '../utils/newsHelpers';
+
+interface Props {
+  weeks: Week[];
+}
+
+const { weeks } = Astro.props;
+const weeklyPreviews = organizeWeeklyPreviews(weeks);
+---
+
+<div class="month-preview">
+  {weeklyPreviews.map(week => (
+    <div class="week-section">
+      <h3 class="week-heading">Week {week.weekNumber}</h3>
+      <ul class="headlines-list">
+        {week.headlines.map(headline => (
+          <li class="headline-item">
+            <time class="headline-date">{headline.date}</time>
+            <span class="headline-title">{headline.title}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  ))}
+</div>
+
+<style>
+  .month-preview {
+    margin-top: 1.5rem;
+    border-top: 2px solid #000;
+    padding-top: 1rem;
+  }
+
+  .week-section {
+    margin-bottom: 1rem;
+  }
+
+  .week-section:last-child {
+    margin-bottom: 0;
+  }
+
+  .week-heading {
+    font-family: var(--font-serif);
+    font-size: 1.1rem;
+    margin: 0 0 0.5rem 0;
+    font-weight: 700;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.25rem;
+  }
+
+  .headlines-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .headline-item {
+    font-size: 0.9rem;
+    margin: 0.35rem 0;
+    line-height: 1.4;
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .headline-date {
+    font-style: italic;
+    color: #666;
+    font-size: 0.8rem;
+    white-space: nowrap;
+  }
+
+  .headline-title {
+    font-family: var(--font-serif);
+  }
+</style>

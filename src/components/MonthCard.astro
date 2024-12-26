@@ -1,0 +1,50 @@
+---
+import MonthPreview from './MonthPreview.astro';
+import type { Week } from '../utils/newsHelpers';
+
+interface Props {
+  month: string;
+  slug: string;
+  summary: string;
+  weeks: Week[];
+}
+
+const { month, slug, summary, weeks } = Astro.props;
+---
+
+<a id=`${slug}` href={`/months/${slug}`} class="month-card">
+  <h2 class="month-title">{month}</h2>
+  <p class="month-summary">{summary}</p>
+  <MonthPreview weeks={weeks} />
+</a>
+
+<style>
+  .month-card {
+    border: 1px solid #000;
+    padding: 1.5rem;
+    text-decoration: none;
+    color: inherit;
+    transition: background-color 0.2s;
+    display: block;
+    background-color: #fff;
+  }
+
+  .month-card:hover {
+    background-color: #f8f8f8;
+  }
+
+  .month-title {
+    font-family: var(--font-serif);
+    font-size: 2rem;
+    margin: 0 0 1rem 0;
+    border-bottom: 2px solid #000;
+    padding-bottom: 0.5rem;
+  }
+
+  .month-summary {
+    font-size: 1.1rem;
+    line-height: 1.4;
+    margin: 0;
+    font-style: italic;
+  }
+</style>

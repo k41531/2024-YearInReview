@@ -1,11 +1,56 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import Header from '../components/Header.astro';
+import MonthIndex from '../components/MonthIndex.astro';
+import MonthCard from '../components/MonthCard.astro';
+import { newsData } from '../data/newsData';
 ---
 
-<Layout>
-	<Welcome />
+<Layout title="2024 Year in Review">
+  <main>
+    <Header />
+    <div class="content-wrapper">
+      <MonthIndex months={newsData} />
+      <div class="months-grid">
+        {newsData.map((monthData) => (
+          <MonthCard
+            month={monthData.month}
+            slug={monthData.slug}
+            summary={monthData.summary}
+            weeks={monthData.weeks}
+          />
+        ))}
+      </div>
+    </div>
+  </main>
 </Layout>
+
+<style>
+  main {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .months-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2rem;
+  }
+
+  @media (min-width: 800px) {
+    .content-wrapper {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+    .months-grid {
+      width: 800px;
+    }
+  }
+</style>

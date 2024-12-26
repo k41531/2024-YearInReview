@@ -1,0 +1,44 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import WeeklySection from '../../components/WeeklySection.astro';
+import { newsData } from '../../data/newsData';
+
+export function getStaticPaths() {
+  return newsData.map(({ slug, month, weeks }) => {
+    return {
+      params: { month: slug },
+      props: { month, weeks },
+    };
+  });
+}
+
+const { month, weeks } = Astro.props;
+---
+
+<Layout title={`${month} 2024 - Year in Review`}>
+  <main>
+    <Header showHomeLink={true} />
+    <section class="month-section">
+      <h2 class="month-title">{month}</h2>
+      {weeks.map((week) => (
+        <WeeklySection weekNumber={week.weekNumber} articles={week.articles} />
+      ))}
+    </section>
+  </main>
+</Layout>
+
+<style>
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  .month-title {
+    font-family: var(--font-serif);
+    font-size: 3rem;
+    text-align: center;
+    margin: 2rem 0;
+    font-weight: 700;
+  }
+</style>

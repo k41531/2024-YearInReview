@@ -1,0 +1,55 @@
+---
+interface Props {
+  showHomeLink?: boolean;
+}
+
+const { showHomeLink = false } = Astro.props;
+---
+
+<header class="newspaper-header">
+  {showHomeLink && (
+    <a href="/" class="home-link">← Back to All Months</a>
+  )}
+  <p class="newspaper-date">Year 2024</p>
+  <h1 class="newspaper-title">The Year in Review</h1>
+  <p class="newspaper-subtitle">A Chronicle of Notable Events</p>
+</header>
+
+<style>
+  .newspaper-header {
+    text-align: center;
+    border-bottom: 4px double #000;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    position: relative;
+  }
+  .newspaper-date {
+    font-family: var(--font-serif);
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  .newspaper-title {
+    font-family: var(--font-serif);
+    font-size: 4rem;
+    margin: 0.5rem 0;
+    font-weight: 700;
+  }
+  .newspaper-subtitle {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  .home-link {
+    position: absolute;
+    left: 0;
+    top: 1rem;
+    text-decoration: none;
+    color: #000;
+    font-family: var(--font-serif);
+    font-size: 1rem;
+  }
+  .home-link:hover {
+    text-decoration: underline;
+  }
+</style>
