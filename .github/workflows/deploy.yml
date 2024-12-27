@@ -38,7 +38,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "2024-year-in-review"
-          entrypoint: "server/entry.mjs"
+          entrypoint: "index.html"
           root: "dist"
           
           
