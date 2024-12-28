@@ -1,7 +1,13 @@
+export interface ArticleLink {
+  title: string;
+  url: string;
+}
+
 export interface Article {
   title: string;
   date: string;
   summary: string;
+  links?: ArticleLink[];
 }
 
 export interface Week {
