@@ -1023,12 +1023,12 @@
                     },
                     {
                         "title": "Unityの新しいCTO",
-                        "date": "November 11, 2024",
+                        "date": "November 1, 2024",
                         "summary": "元Havokの創設者であるスティーブ・コリンズがUnityの新しいCTOに就任しました。"
                     },
                     {
                         "title": "リアルタイムフィッシング",
-                        "date": "November 13, 2024",
+                        "date": "November 1, 2024",
                         "summary": "ワンタイムパスワードを突破するフィッシング"
 
                     }
@@ -1040,18 +1040,39 @@
                 "articles": [
                     {
                         "title": "AIによる法改正の動き",
-                        "date": "November 3, 2023",
+                        "date": "November 8, 2024",
                         "summary": "特許庁はAIが意匠権の取得を妨げないよう、意匠法を2026年までに改正する方針を発表しました。"
                     },
                     {
                         "title": "Intelの最新動向",
-                        "date": "November 4, 2023",
+                        "date": "November 8, 2024",
                         "summary": "IntelはPanther LakeとNova Lakeを自社生産予定である一方、AIチップの売上が予想を下回っています。また、Intelはダウ平均から外され、Nvidiaが入ることになりました。"
                     },
                     {
                         "title": "スピアフィッシングの新手法",
-                        "date": "November 3, 2023",
+                        "date": "November 8, 2024",
                          "summary": "CISAがRDP構成ファイルを添付したフィッシングメールについて注意喚起を行い、日本もターゲットにされています。"
+                    }
+                ]
+            },
+
+            {
+                "weekNumber": 3,
+                "articles": [
+                    {
+                        "title": "Wiki Project AI Clean up",
+                        "date": "November 15, 2024",
+                        "summary": "AI記事を機械・人間の目で綺麗にしようというプロジェクトが動いている"
+                    },
+                    {
+                        "title": "App Intent",
+                        "date": "November 15, 2023",
+                        "summary": "iOSアプリの機能をSiriやショートカット、ウィジェットなどのシステム機能と統合するためのフレームワーク"
+                    },
+                    {
+                        "title": "GoIssue",
+                        "date": "November 15, 2024",
+                        "summary": "GitHub利用者を狙う新型フィッシングツールが出現。"
                     }
                 ]
             },
@@ -1059,29 +1080,39 @@
                 "weekNumber": 4,
                 "articles": [
                     {
-                        "title": "OpenAIの内紛",
-                        "date": "November 24, 2023",
-                        "summary": "OpenAIのCEOアルトマンが一時追放後に復職する騒動が起き、取締役会のメンバーが変更されました。"
+                        "title": "DeepSeek R1",
+                        "date": "November 22, 2024",
+                        "summary": "中国のヘッジファンドから支援を受けている企業がO1-previewに匹敵するモデルを発表"
                     },
                     {
-                        "title": "LCM技術の普及",
-                        "date": "November 26, 2023",
-                        "summary": "LCMがDiffusionモデルの代替として注目され、Webカメラ情報のリアルタイム画像変換により人気を集めています。"
+                        "title": "State of CSS",
+                        "date": "November 22, 2024",
+                        "summary": "2024年のCSSの最新動向をまとめたレポート、CSSの新機能やトレンドが紹介されています。"
+                    },
+                    {
+                        "title": "MIRITE 2024 Top 25 most dangerous software weaknesses",
+                        "date": "November 22, 2024",
+                        "summary": "MIRITEによる脆弱性ランキング、最も危険なソフトウェアの脆弱性がリストアップされました。"
                     }
                 ]
             },
             {
-                "weekNumber": 2,
+                "weekNumber": 5,
                 "articles": [
                     {
-                        "title": "新たなフィッシング攻撃の警告",
-                        "date": "November 10, 2023",
-                        "summary": "CISAがRDP構成ファイルを添付したフィッシングメールについて注意喚起を行い、日本もターゲットにされています。"
+                        "title": "MCP(Model Context Protocol)",
+                        "date": "November 29, 2024",
+                        "summary": "Anthropicが開発した、AIシステムと外部データソースやツールをシームレスに統合するためのオープンプロトコル"
                     },
                     {
-                        "title": "iOS 18.1 の新機能",
-                        "date": "November 12, 2023",
-                        "summary": "iOS 18.1に72時間後の自動再起動機能が追加され、法執行機関で議論を呼んでいます。"
+                        "title": "ベクトル検索エンジンの活用",
+                        "date": "November 29, 2024",
+                        "summary": "CEDEC Kyushu 2024 の スクエアエニックス, CEDEC 2024 の Cygames などで活用方法が紹介されている"
+                    },
+                    {
+                        "title": "Reverse Engineering iOS 18 Inactivity Reboot",
+                        "date": "November 29, 2024",
+                        "summary": "iOS 18.1 に密かに追加された新機能、ロック状態で72時間放置すると再起動する。"
                     }
                 ]
             },
@@ -1093,12 +1124,22 @@
         "summary": "技術の進展とセキュリティに関するニュースが豊富な月",
         "weeks": [
             {
-                "weekNumber": 3,
+                "weekNumber": 1,
                 "articles": [
                     {
                         "title": "Genie 2",
-                        "date": "2023-12-15",
+                        "date": "2024-12-06",
                         "summary": "1枚の画像からプレイ可能な3D環境を生成する新たな技術"
+                    },
+                    {
+                        "title": "Chrome売却について",
+                        "date": "2024-12-06",
+                        "summary": "GoogleのChrome売却提案と独占是正に関するニュース"
+                    },
+                    {
+                        "title": "Top 6 Nastiest Malware of 2024",
+                        "date": "2024-12-06",
+                        "summary": "LockBit, Akira, RansomHubなど今年の最も悪質だったマルウェアの紹介"
                     }
                 ]
             },
@@ -1106,19 +1147,19 @@
                 "weekNumber": 2,
                 "articles": [
                     {
-                        "title": "Chrome売却について",
-                        "date": "2023-12-08",
-                        "summary": "GoogleのChrome売却提案と独占是正に関するニュース"
-                    }
-                ]
-            },
-            {
-                "weekNumber": 1,
-                "articles": [
+                        "title": "OpenAI 12days",
+                        "date": "2024-12-13",
+                        "summary": "OpenAIによる12日間連続発表のイベントを開始(休日を除く)"
+                    },
                     {
-                        "title": "LockBit, Akira, RansomHub",
-                        "date": "2023-12-01",
-                        "summary": "法執行機関を回避し活動を続けるマルウェアグループに関するセキュリティニュース"
+                        "title": "itch.io take down",
+                        "date": "2024-12-13",
+                        "summary": "Funko社が使用しているBrandSheildというソフトの誤検知を発端にitch.ioのドメインが一時停止に"
+                    },
+                    {
+                        "title": "Fighting cookie theft using device bound sessions",
+                        "date": "2024-12-13",
+                        "summary": "セッションハイジャック対策としてTPMを利用したDBSC(Device Bound Session Credentials)という仕様が作られた。"
                     }
                 ]
             }
