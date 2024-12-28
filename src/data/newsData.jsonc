@@ -1017,19 +1017,38 @@
                 "weekNumber": 1,
                 "articles": [
                     {
-                        "title": "GitHub Sparkの導入",
+                        "title": "GitHub Sparkの発表",
                         "date": "November 1, 2024",
-                        "summary": "自然言語でAIとマイクロアプリを作成できるGitHub Sparkが発表され、10億以上のユーザーが自身のアプリを開発・共有できるようになります。"
+                        "summary": "自然言語でAIとマイクロアプリを作成できるGitHub Sparkが発表され、10億以上のユーザーが自身のアプリを開発・共有できるようになります。",
+                        "links": [
+                            {
+                                "title": "GitHub Spark",
+                                "url": "https://githubnext.com/projects/github-spark/"
+                            }
+                        ]
                     },
                     {
                         "title": "Unityの新しいCTO",
                         "date": "November 1, 2024",
-                        "summary": "元Havokの創設者であるスティーブ・コリンズがUnityの新しいCTOに就任しました。"
+                        "summary": "元Havokの創設者であるスティーブ・コリンズがUnityの新しいCTOに就任しました。",
+                        "links": [
+                            {
+                                "title": "元King CTO、Havok共同創設者のスティーブ・コリンズが、Unityの新しい最高技術責任者（CTO）に就任",
+                                "url": "https://unity3d.jp/news/new-cto-steve-collins/"
+                            }
+                        ]
+
                     },
                     {
                         "title": "リアルタイムフィッシング",
                         "date": "November 1, 2024",
-                        "summary": "ワンタイムパスワードを突破するフィッシング"
+                        "summary": "ワンタイムパスワードを突破するフィッシング",
+                        "links": [
+                            {
+                                "title": "多要素認証を突破するリアルタイム型フィッシング詐欺",
+                                "url": "https://www.digitalsales.alsok.co.jp/col_realtime-phishing"
+                            }
+                        ]
 
                     }
 
@@ -1041,17 +1060,44 @@
                     {
                         "title": "AIによる法改正の動き",
                         "date": "November 8, 2024",
-                        "summary": "特許庁はAIが意匠権の取得を妨げないよう、意匠法を2026年までに改正する方針を発表しました。"
+                        "summary": "特許庁はAIが意匠権の取得を妨げないよう、意匠法を2026年までに改正する方針を発表しました。",
+                        "links": [
+                            {
+                                "title": "生成AIの「知財」侵害を防ぐ　特許庁、26年に意匠法改正へ",
+                                "url": "https://nordot.app/1226460392244150525"
+                            }
+                        ]
                     },
                     {
                         "title": "Intelの最新動向",
                         "date": "November 8, 2024",
-                        "summary": "IntelはPanther LakeとNova Lakeを自社生産予定である一方、AIチップの売上が予想を下回っています。また、Intelはダウ平均から外され、Nvidiaが入ることになりました。"
+                        "summary": "IntelはPanther LakeとNova Lakeを自社生産予定である一方、AIチップの売上が予想を下回る。また、Intelはダウ平均から外され、Nvidiaが入ることになりました。",
+                        "links": [
+                            {
+                                "title": "Intel outlines plan to break free from TSMC manufacturing",
+                                "url": "https://www.tomshardware.com/pc-components/cpus/intel-outlines-plan-to-break-free-from-tsmc-manufacturing-70-percent-of-panther-lake-at-intel-fabs-nova-lake-almost-entirely-in-house"
+                            },
+                            {
+                                "title": "NYダウ平均株価の銘柄「インテル」外れ「エヌビディア」採用へ",
+                                "url": "https://www3.nhk.or.jp/news/html/20241102/k10014627331000.html"
+                            }
+                        ]
+
                     },
                     {
                         "title": "スピアフィッシングの新手法",
                         "date": "November 8, 2024",
-                         "summary": "CISAがRDP構成ファイルを添付したフィッシングメールについて注意喚起を行い、日本もターゲットにされています。"
+                         "summary": "CISAがRDP構成ファイルを添付したフィッシングメールについて注意喚起を行い、日本もターゲットにされています。",
+                        "links": [
+                            {
+                                "title": "Foreign Threat Actor Conducting Large-Scale Spearphishing Campaign with RDP Attachments",
+                                "url": "https://www.cisa.gov/news-events/alerts/2024/10/31/foreign-threat-actor-conducting-large-scale-spearphishing-campaign-rdp-attachments"
+                            },
+                            {
+                                "title": "米国CISAが注意を呼びかけたRDP構成ファイルを添付したフィッシングについてまとめてみた",
+                                "url": "https://piyolog.hatenadiary.jp/entry/2024/11/06/011739"
+                            }
+                        ]
                     }
                 ]
             },
@@ -1062,17 +1108,35 @@
                     {
                         "title": "Wiki Project AI Clean up",
                         "date": "November 15, 2024",
-                        "summary": "AI記事を機械・人間の目で綺麗にしようというプロジェクトが動いている"
+                        "summary": "AI記事を機械・人間の目で綺麗にしようというプロジェクトが動いている",
+                        "links": [
+                            {
+                                "title": "Wikipedia:WikiProject AI Cleanup",
+                                "url": "https://en.wikipedia.org/wiki/Wikipedia:WikiProject_AI_Cleanup"
+                            }
+                        ]
                     },
                     {
                         "title": "App Intent",
                         "date": "November 15, 2023",
-                        "summary": "iOSアプリの機能をSiriやショートカット、ウィジェットなどのシステム機能と統合するためのフレームワーク"
+                        "summary": "iOSアプリの機能をSiriやショートカット、ウィジェットなどのシステム機能と統合するためのフレームワーク",
+                        "links": [
+                            {
+                                "title": "App Intents | Apple Developer Documentation",
+                                "url": "https://developer.apple.com/documentation/appintents"
+                            }
+                        ]
                     },
                     {
                         "title": "GoIssue",
                         "date": "November 15, 2024",
-                        "summary": "GitHub利用者を狙う新型フィッシングツールが出現。"
+                        "summary": "GitHub利用者を狙う新型フィッシングツールが出現。",
+                        "links": [
+                            {
+                                "title": "GoIssue – The Tool Behind Recent GitHub Phishing Attacks",
+                                "url": "https://slashnext.com/blog/goissue-github-phishing-attacks/"
+                            }
+                        ]
                     }
                 ]
             },
@@ -1082,17 +1146,35 @@
                     {
                         "title": "DeepSeek R1",
                         "date": "November 22, 2024",
-                        "summary": "中国のヘッジファンドから支援を受けている企業がO1-previewに匹敵するモデルを発表"
+                        "summary": "中国のヘッジファンドから支援を受けている企業がO1-previewに匹敵するモデルを発表",
+                        "links": [
+                            {
+                                "title": "🚀 DeepSeek-R1-Lite-Preview is now live: unleashing supercharged reasoning power!",
+                                "url": "https://api-docs.deepseek.com/news/news1120"
+                            }
+                        ]
                     },
                     {
                         "title": "State of CSS",
                         "date": "November 22, 2024",
-                        "summary": "2024年のCSSの最新動向をまとめたレポート、CSSの新機能やトレンドが紹介されています。"
+                        "summary": "2024年のCSSの最新動向をまとめたレポート、CSSの新機能やトレンドが紹介されています。",
+                        "links": [
+                            {
+                                "title": "The State of CSS 2024",
+                                "url": "https://2024.stateofcss.com/"
+                            }
+                        ]
                     },
                     {
                         "title": "MIRITE 2024 Top 25 most dangerous software weaknesses",
                         "date": "November 22, 2024",
-                        "summary": "MIRITEによる脆弱性ランキング、最も危険なソフトウェアの脆弱性がリストアップされました。"
+                        "summary": "MIRITEによる脆弱性ランキング、最も危険なソフトウェアの脆弱性がリストアップされました。",
+                        "links": [
+                            {
+                                "title": "2024 CWE Top 25 Most Dangerous Software Weaknesses",
+                                "url": "https://cwe.mitre.org/top25/archive/2024/2024_cwe_top25.html"
+                            }
+                        ]
                     }
                 ]
             },
@@ -1102,17 +1184,39 @@
                     {
                         "title": "MCP(Model Context Protocol)",
                         "date": "November 29, 2024",
-                        "summary": "Anthropicが開発した、AIシステムと外部データソースやツールをシームレスに統合するためのオープンプロトコル"
+                        "summary": "Anthropicが開発した、AIシステムと外部データソースやツールをシームレスに統合するためのオープンプロトコル",
+                        "links": [
+                            {
+                                "title": "Introducing the Model Context Protocol | Anthropic",
+                                "url": "https://www.anthropic.com/news/model-context-protocol"
+                            }
+                        ]
                     },
                     {
                         "title": "ベクトル検索エンジンの活用",
                         "date": "November 29, 2024",
-                        "summary": "CEDEC Kyushu 2024 の スクエアエニックス, CEDEC 2024 の Cygames などで活用方法が紹介されている"
+                        "summary": "CEDEC Kyushu 2024 の スクエアエニックス, CEDEC 2024 の Cygames などで活用方法が紹介されている",
+                        "links": [
+                            {
+                                "title": "ゲーム会社の業務効率化に生成AIは役立つか？ | CEDEC Kyushu 2024",
+                                "url": "https://cedec-kyushu.jp/2024/session/19.html"
+                            },
+                            {
+                                "title": "AIを活用した柔軟かつ効率的な社内リソース検索への取り組み | CEDEC 2024",
+                                "url": "https://cedec.cesa.or.jp/2024/session/detail/s66010eb1cb5f7/"
+                            }
+                        ]
                     },
                     {
                         "title": "Reverse Engineering iOS 18 Inactivity Reboot",
                         "date": "November 29, 2024",
-                        "summary": "iOS 18.1 に密かに追加された新機能、ロック状態で72時間放置すると再起動する。"
+                        "summary": "iOS 18.1 に密かに追加された新機能、ロック状態で72時間放置すると再起動する。",
+                        "links": [
+                            {
+                                "title": "Reverse Engineering iOS 18 Inactivity Reboot",
+                                "url": "https://naehrdine.blogspot.com/2024/11/reverse-engineering-ios-18-inactivity.html"
+                            }
+                        ]
                     }
                 ]
             },
@@ -1129,17 +1233,36 @@
                     {
                         "title": "Genie 2",
                         "date": "2024-12-06",
-                        "summary": "1枚の画像からプレイ可能な3D環境を生成する新たな技術"
+                        "summary": "1枚の画像からプレイ可能な3D環境を生成する新たな技術",
+                        "links": [
+                            {
+                                "title": "Genie 2: A large-scale foundation world model | Google DeepMind",
+                                "url": "https://deepmind.google/discover/blog/genie-2-a-large-scale-foundation-world-model/"
+                            }
+                        ]
+
                     },
                     {
                         "title": "Chrome売却について",
                         "date": "2024-12-06",
-                        "summary": "GoogleのChrome売却提案と独占是正に関するニュース"
+                        "summary": "GoogleのChrome売却提案と独占是正に関するニュース",
+                        "links": [
+                            {
+                                "title": "司法省がGoogleに迫る「Chrome売却」の意味【西田宗千佳のイマトミライ】| Impress Watch",
+                                "url": "https://www.watch.impress.co.jp/docs/series/nishida/1644009.html"
+                            }
+                        ]
                     },
                     {
                         "title": "Top 6 Nastiest Malware of 2024",
                         "date": "2024-12-06",
-                        "summary": "LockBit, Akira, RansomHubなど今年の最も悪質だったマルウェアの紹介"
+                        "summary": "LockBit, Akira, RansomHubなど今年の最も悪質だったマルウェアの紹介",
+                        "links": [
+                            {
+                                "title": "Top 6 Nastiest Malware of 2024 Infographic | OpenText",
+                                "url": "https://www.opentext.com/media/infographic/top-6-nastiest-malware-of-2024-infographic-en.pdf"
+                            }
+                        ]
                     }
                 ]
             },
@@ -1149,17 +1272,35 @@
                     {
                         "title": "OpenAI 12days",
                         "date": "2024-12-13",
-                        "summary": "OpenAIによる12日間連続発表のイベントを開始(休日を除く)"
+                        "summary": "OpenAIによる12日間連続発表のイベントを開始(休日を除く)",
+                        "links": [
+                            {
+                                "title": "12 Days of OpenAI",
+                                "url": "https://openai.com/12-days/"
+                            }
+                        ]
                     },
                     {
                         "title": "itch.io take down",
                         "date": "2024-12-13",
-                        "summary": "Funko社が使用しているBrandSheildというソフトの誤検知を発端にitch.ioのドメインが一時停止に"
+                        "summary": "Funko社が使用しているBrandSheildというソフトの誤検知を発端にitch.ioのドメインが一時停止に",
+                        "links": [
+                            {
+                                "title": "itch.io Website Allegedly Taken Down by Funko | IGN",
+                                "url": "https://www.ign.com/articles/itchio-website-allegedly-taken-down-by-funko"
+                            }
+                        ]
                     },
                     {
                         "title": "Fighting cookie theft using device bound sessions",
                         "date": "2024-12-13",
-                        "summary": "セッションハイジャック対策としてTPMを利用したDBSC(Device Bound Session Credentials)という仕様が作られた。"
+                        "summary": "セッションハイジャック対策としてTPMを利用したDBSC(Device Bound Session Credentials)という仕様が作られた。",
+                        "links": [
+                            {
+                                "title": "Fighting cookie theft using device bound sessions",
+                                "url": "https://blog.chromium.org/2024/04/fighting-cookie-theft-using-device.html"
+                            }
+                        ]
                     }
                 ]
             }
