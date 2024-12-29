@@ -380,16 +380,28 @@
                     {
                         "title": "Claude3のリリース",
                         "date": "March 8, 2024",
-                        "summary": "Anthropic社の新AIモデルClaude 3が話題になり、その性能について注目が集まっている。"
+                        "summary": "Anthropic社の新AIモデルClaude 3が話題になり、その性能について注目が集まっている。",
+                        "links": [
+                            {
+                                "title": "Introducing the next generation of Claude",
+                                "url": "https://www.anthropic.com/news/claude-3-family"
+                            }
+                        ]
                     },
                     {
                         "title": "GitHub Copilot Chatの機能",
                         "date": "March 8, 2024",
-                        "summary": "VScodeのGit機能からCommit Messageを自動生成する新機能が紹介された。コマンドベースでの操作が可能。"
+                        "summary": "VScodeのGit機能からCommit Messageを自動生成する新機能が紹介された。コマンドベースでの操作が可能。",
+                        "links": [
+                            {
+                                "title": "VS Code Copilot",
+                                "url": "https://github.blog/changelog/2024-02-12-vs-code-copilot-chat-january-2024-version-0-12/"
+                            }
+                        ]
                     },
                     {
                         "title": "情報セキュリティ10大脅威 2024",
-                        "date": "March 15, 2024",
+                        "date": "March 8, 2024",
                         "summary": "2023年に注目されたセキュリティトピックが紹介された。",
                         "links": [
                             {
@@ -406,12 +418,24 @@
                     {
                         "title": "Claude3 Opus vs GPT-4",
                         "date": "March 15, 2024",
-                        "summary": "Opusは理知的な人、GPT-4は強いクイズプレイヤー？"
+                        "summary": "Opusは理知的な人、GPT-4は強いクイズプレイヤー？",
+                        "links": [
+                            {
+                                "title": "GPT-4T vs Claude 3 Opus",
+                                "url": "https://www.reddit.com/r/ChatGPTPro/comments/1b9czf8/gpt4t_vs_claude_3_opus/"
+                            }
+                        ]
                     },
                     {
                         "title": "情報１",
                         "date": "March 15, 2024",
-                        "summary": "なかなか良い難易度。現役のエンジニアは最低限「情報」の内容は抑えておきたいところ"
+                        "summary": "なかなか良い難易度。現役のエンジニアは最低限「情報」の内容は抑えておきたいところ",
+                        "links": [
+                            {
+                                "title": "高等学校情報科「情報Ⅰ」教員研修用教材（本編）",
+                                "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/1416756.htm"
+                            }
+                        ]
                     },
                     {
                         "title": "CORS",
@@ -419,7 +443,7 @@
                         "summary": "言葉は知っているけど、ちゃんと理解できてなさそうな技術用語",
                         "links": [
                             {
-                                "title": "理解するためのおすすめ記事",
+                                "title": "CORSを絶対に理解する",
                                 "url": "https://zenn.dev/syo_yamamoto/articles/445ce152f05b02"
                             }
                         ]
@@ -430,39 +454,87 @@
                 "weekNumber": 4,
                 "articles": [
                     {
-                        "title": "Grokの公開と新AI技術(Suno V3, O1, EvoLLM)",
-                        "date": "March 15, 2024",
-                        "summary": "GrokやSuno V3、O1(Opne Interpreter)、EvoLLMという新たなAI技術についての話題が多く取り上げられた。"
+                        "title": "Grokの公開と新AI技術(Suno V3, 01, EvoLLM)",
+                        "date": "March 22, 2024",
+                        "summary": "GrokやSuno V3、O1(Opne Interpreter)、EvoLLMという新たなAI技術についての話題が多く取り上げられた。",
+                        "links": [
+                            {
+                                "title": "Open Release of Grok-1",
+                                "url": "https://x.ai/blog/grok-os"
+                            },
+                            {
+                                "title": "Suno v3",
+                                "url": "https://suno.com/blog/v3"
+                            },
+                            {
+                                "title": "OpenInterpreter/01",
+                                "url": "https://github.com/OpenInterpreter/01"
+                            },
+                            {
+                                "title": "EvoLLM 進化的アルゴリズムによる基盤モデルの構築",
+                                "url": "https://sakana.ai/evolutionary-model-merge-jp/"
+                            }
+                        ]
                     },
                     {
                         "title": "GTC 2024のハイライト",
-                        "date": "March 15, 2024",
-                        "summary": "BlackwellやProject GR00T、OmniverseのVision Pro対応などが注目の技術として紹介された。"
+                        "date": "March 22, 2024",
+                        "summary": "BlackwellやProject GR00T、OmniverseのVision Pro対応などが注目の技術として紹介された。",
+                        "links": [
+                            {
+                                "title": "NVIDIA GTC 2024",
+                                "url": "https://www.youtube.com/playlist?list=PLZHnYvH1qtOYPPHRaHf9yPQkIcGpIUpdL"
+                            }
+                        ]
                     },
                     {
-                        "title": "MD5の衝突問題",
-                        "date": "March 15, 2024",
-                        "summary": "MD5のハッシュ関数が衝突困難であるという問題の解説が行われ、面白いツイートが話題になった。"
-                    },
+                        "title": "MD5の衝突",
+                        "date": "March 22, 2024",
+                        "summary": "MD5のハッシュ関数において、1バイト違いで衝突させるツイートの紹介",
+                        "links": [
+                            {
+                                "title": "Here is a 72-byte alphanum MD5 collision with 1-byte difference for fun",
+                                "url": "https://x.com/realhashbreaker/status/1770161965006008570"
+                            }
+                        ]
+                    }
                 ]
             },
             {
                 "weekNumber": 5,
                 "articles": [
                     {
-                        "title": "TTSとAI音声合成",
-                        "date": "March 22, 2024",
-                        "summary": "Bert-VITS2がスタイル制御しやすくなり、日本語が追加されたことで、高品質な音声合成が可能になった。"
+                        "title": "Style-Bert-VITS2",
+                        "date": "March 29, 2024",
+                        "summary": "Bert-VITS2がスタイル制御しやすくなり、日本語が追加されたことで、高品質な音声合成が可能になった。",
+                        "links": [
+                            {
+                                "title": "Style-Bert-VITS2",
+                                "url": "https://github.com/litagin02/Style-Bert-VITS2"
+                            }
+                        ]
                     },
                     {
                         "title": "Honoフレームワークの利点",
-                        "date": "March 22, 2024",
-                        "summary": "API開発に最適なHonoは、Node.js非依存で軽量性と速度の面で優れている点が強調された。"
+                        "date": "March 29, 2024",
+                        "summary": "API開発に最適なHonoは、Node.js非依存で軽量性と速度の面で優れている点が強調された。",
+                        "links": [
+                            {
+                                "title": "Hono",
+                                "url": "https://hono.dev/"
+                            }
+                        ]
                     },
                     {
                         "title": "公開鍵認証",
                         "date": "March 29, 2024",
-                        "summary": "EC2へのSSH接続などに利用される公開鍵認証についての解説が行われた。"
+                        "summary": "EC2へのSSH接続などに利用される公開鍵認証について",
+                        "links": [
+                            {
+                                "title": "RFC 4252 - The Secure Shell (SSH) Authentication Protocol",
+                                "url": "https://datatracker.ietf.org/doc/html/rfc4252"
+                            }
+                        ]
                     }
                 ]
             }
@@ -479,17 +551,35 @@
                     {
                         "title": "CohereがリリースしたAI Command R",
                         "date": "2024/04/05",
-                        "summary": "GPT-4にも匹敵するRAG最適化LLMを公開。"
+                        "summary": "GPT-4にも匹敵するRAG最適化LLMを公開。",
+                        "links": [
+                            {
+                                "title": "Command R: Retrieval-Augmented Generation at Production Scale",
+                                "url": "https://docs.cohere.com/v2/changelog/command-r-retrieval-augmented-generation-at-production-scale"
+                            }
+                        ]
                     },
                     {
                         "title": "AWS Cost Explorer",
                         "date": "2024/04/05",
-                        "summary": "AWSのコストを分析するツールを紹介。"
+                        "summary": "AWSのコストを分析するツールを紹介。",
+                        "links": [
+                            {
+                                "title": "AWS Cost Explorer",
+                                "url": "https://aws.amazon.com/jp/aws-cost-management/aws-cost-explorer/"
+                            }
+                        ]
                     },
                     {
                         "title": "XZ Utilsのバックドア",
                         "date": "2024/04/05",
-                        "summary": "圧縮ソフトXZ Utilsにバックドアが発見される。"
+                        "summary": "圧縮ソフトXZ Utilsにバックドアが発見される。",
+                        "links": [
+                            {
+                                "title": "CVE-2024-3094",
+                                "url": "https://nvd.nist.gov/vuln/detail/cve-2024-3094"
+                            }
+                        ]
                     }
                 ]
             },
@@ -499,17 +589,39 @@
                     {
                         "title": "AIによる仕事量の変化",
                         "date": "2024/04/12",
-                        "summary": "AIの進化が仕事量における大きな変化をもたらしている様子を報告。"
+                        "summary": "AIの進化が仕事量における大きな変化をもたらしている様子を報告。",
+                        "links": [
+                            {
+                                "title": "The jobs being replaced by AI – an analysis of 5M freelancing jobs",
+                                "url": "https://bloomberry.com/i-analyzed-5m-freelancing-jobs-to-see-what-jobs-are-being-replaced-by-ai/"
+                            }
+                        ]
                     },
                     {
                         "title": "Baselimeが無償化",
                         "date": "2024/04/12",
-                        "summary": "オブザーバビリティプラットフォームBaselimeが無償化される。"
+                        "summary": "オブザーバビリティプラットフォームBaselimeが無償化される。",
+                        "links": [
+                            {
+                                "title": "Baselime",
+                                "url": "https://baselime.io/"
+                            },
+                            {
+                                "title": "Cloudflare、サーバーレスパフォーマンスを強化する買収によりオブザーバビリティ市場に参入",
+                                "url": "https://www.cloudflare.com/ja-jp/press-releases/2024/cloudflare-enters-observability-market-with-acquisition-baselime/"
+                            }
+                        ]
                     },
                     {
                         "title": "セキュリティアクション",
                         "date": "2024/04/12",
-                        "summary": "中小企業向けのセキュリティ対策自己宣言制度の進捗報告。"
+                        "summary": "中小企業向けのセキュリティ対策自己宣言制度の進捗報告。",
+                        "links": [
+                            {
+                                "title": "「2023年度 SECURITY ACTION宣言事業者における情報セキュリティ対策の実態調査」 報告書について",
+                                "url": "https://www.ipa.go.jp/security/reports/sme/sa-survey2023.html"
+                            }
+                        ]
                     }
                 ]
             },
@@ -519,17 +631,35 @@
                     {
                         "title": "ChatVector",
                         "date": "2024/04/19",
-                        "summary": "Word2VecのLLM版みたいなもの。日本語ベースModel + (英語チャットモデル - 英語ベースモデル) = 日本語チャットモデル"
+                        "summary": "Word2VecのLLM版みたいなもの。日本語ベースModel + (英語チャットモデル - 英語ベースモデル) = 日本語チャットモデル",
+                        "links": [
+                            {
+                                "title": "Chat Vector: A Simple Approach to Equip LLMs with Instruction Following and Model Alignment in New Languages",
+                                "url": "https://arxiv.org/abs/2310.04799"
+                            }
+                        ]
                     },
                     {
                         "title": "Obsidian + LLM",
                         "date": "2024/04/19",
-                        "summary": "ObsidianでLLMを活用する機能を紹介。"
+                        "summary": "ObsidianでLLMを活用する機能を紹介。",
+                        "links": [
+                            {
+                                "title": "THE Copilot in Obsidian",
+                                "url": "https://github.com/logancyang/obsidian-copilot"
+                            }
+                        ]
                     },
                     {
                         "title": "CVE-2024-3400",
                         "date": "2024/04/19",
-                        "summary": "PAN-OSにおけるRCE脆弱性が公開され、CVSSv4が脆弱性スコアに使われている。"
+                        "summary": "PAN-OSにおけるRCE脆弱性が公開され、CVSSv4が脆弱性スコアに使われている。",
+                        "links": [
+                            {
+                                "title": "CVE-2024-3400",
+                                "url": "https://nvd.nist.gov/vuln/detail/cve-2024-3400"
+                            }
+                        ]
                     }
                 ]
             },
@@ -539,17 +669,35 @@
                     {
                         "title": "Ollama",
                         "date": "2024/04/26",
-                        "summary": "ローカルLLMを簡単に動かせるソフトウェア"
+                        "summary": "ローカルLLMを簡単に動かせるソフトウェア",
+                        "links": [
+                            {
+                                "title": "Ollama",
+                                "url": "https://ollama.com/"
+                            }
+                        ]
                     },
                     {
                         "title": "Redis のライセンス変更",
                         "date": "2024/04/26",
-                        "summary": "Redisのライセンスが変更(Redis v7.4) BSD-3 -> RSALv2 | SSPLv1。移行先として Valkey や Garnet ?"
+                        "summary": "Redisのライセンスが変更(Redis v7.4) BSD-3 -> RSALv2 | SSPLv1。移行先として Valkey や Garnet ?",
+                        "links": [
+                            {
+                                "title": "Redisがライセンスを変更⁠⁠、BSDライセンスからRSAL/SSPLデュアルライセンスに",
+                                "url": "https://gihyo.jp/article/2024/03/redis-dual-licensing"
+                            }
+                        ]
                     },
                     {
                         "title": "羊の皮をかぶったGPT",
                         "date": "2024/04/26",
-                        "summary": "ChatGPTの機能、GPTsを使ったサイバー攻撃"
+                        "summary": "ChatGPTの機能、GPTsを使ったサイバー攻撃",
+                        "links": [
+                            {
+                                "title": "GPT in Sheep's Clothing: The Risk of Customized GPTs",
+                                "url": "https://arxiv.org/abs/2401.09075"
+                            }
+                        ]
                     }
                 ]
             }
