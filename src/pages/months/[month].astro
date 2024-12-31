@@ -20,7 +20,11 @@ const { month, weeks } = Astro.props;
   <main>
     <Header showHomeLink={true} />
     <section class="month-section">
-      <h2 class="month-title">{month}</h2>
+      <a href="/" class="home-link">← Back to All Months</a>
+
+      <div class="month-header"> 
+        <h2 class="month-title">{month}</h2>
+      </div>
       {weeks.map((week) => (
         <WeeklySection weekNumber={week.weekNumber} articles={week.articles} />
       ))}
@@ -34,11 +38,26 @@ const { month, weeks } = Astro.props;
     margin: 0 auto;
     padding: 2rem;
   }
+  .month-header {
+    
+    margin-bottom: 2rem;
+  }
   .month-title {
     font-family: var(--font-serif);
     font-size: 3rem;
     text-align: center;
     margin: 2rem 0;
     font-weight: 700;
+  }
+  .home-link {
+    left: 0;
+    top: 1rem;
+    text-decoration: none;
+    color: #000;
+    font-family: var(--font-serif);
+    font-size: 1rem;
+  }
+  .home-link:hover {
+    text-decoration: underline;
   }
 </style>

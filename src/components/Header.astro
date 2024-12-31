@@ -7,9 +7,6 @@ const { showHomeLink = false } = Astro.props;
 ---
 
 <header class="newspaper-header">
-  {showHomeLink && (
-    <a href="/" class="home-link">← Back to All Months</a>
-  )}
   <p class="newspaper-date">Year 2024</p>
   <h1 class="newspaper-title">The Year in Review</h1>
   <p class="newspaper-subtitle">A Chronicle of Notable Events</p>
@@ -39,17 +36,5 @@ const { showHomeLink = false } = Astro.props;
     font-style: italic;
     font-size: 1.5rem;
     margin: 0;
-  }
-  .home-link {
-    position: absolute;
-    left: 0;
-    top: 1rem;
-    text-decoration: none;
-    color: #000;
-    font-family: var(--font-serif);
-    font-size: 1rem;
-  }
-  .home-link:hover {
-    text-decoration: underline;
   }
 </style>
