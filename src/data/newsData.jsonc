@@ -341,7 +341,7 @@
                         "links": [
                             {
                                 "title": "AIと著作権に関する意見に関するパブリックコメント",
-                                "url": "ttps://www.bunka.go.jp/seisaku/bunkashingikai/chosakuken/hoseido/r05_07/pdf/94011401_01.pdf"
+                                "url": "https://www.bunka.go.jp/seisaku/bunkashingikai/chosakuken/hoseido/r05_07/pdf/94011401_01.pdf"
                             },
                             {
                                 "title": "BitNet",
@@ -824,17 +824,36 @@
                     {
                         "title": "NotebookLM by Google",
                         "date": "2024/06/07",
-                        "summary": "アップロードしたソースはGoogleのAI学習に使われない、提供したデータのみ利用する手軽なRAGシステムのようなサービス"
+                        "summary": "アップロードしたソースはGoogleのAI学習に使われない、提供したデータのみ利用する手軽なRAGシステムのようなサービス",
+                        "links": [
+                            {
+                                "title": "NotebookLM",
+                                "url": "https://notebooklm.google/"
+                            }
+                        ]
                     },
                     {
                         "title": "Quicktype",
                         "date": "2024/06/07",
-                        "summary": "Jsonから様々な言語でそれを扱うクラスを生成できるツール"
+                        "summary": "Jsonから様々な言語でそれを扱うクラスを生成できるツール",
+                        "links": [
+                            {
+                                "title": "Quicktype",
+                                "url": "https://quicktype.io/"
+                            }
+                        ]
                     },
                     {
                         "title": "Google Search Algorithm Document Leak",
                         "date": "2024/06/07",
-                        "summary": "Googleの検索アルゴリズムに関する内部文書の漏洩事件。スコアリングの仕組みが面白い。"
+                        "summary": "Googleの検索アルゴリズムに関する内部文書の漏洩事件。スコアリングの仕組みが面白い。",
+                        "links": [
+                            {
+                                "title": "Google confirms the leaked Search documents are real",
+                                "url": "https://www.theverge.com/2024/5/29/24167407/google-search-algorithm-documents-leak-confirmation"
+                            }
+                        ]
+
                     }
                 ]
             },
@@ -844,18 +863,36 @@
                     {
                         "title": "Dream Machine",
                         "date": "2024/06/14",
-                        "summary": "AIを使ったText2Videoサービス。細かい指示はできないが無料で遊ぶ程度には使える。"
+                        "summary": "AIを使ったText2Videoサービス。細かい指示はできないが無料で遊ぶ程度には使える。",
+                        "links": [
+                            {
+                                "title": "Luma launches Dream Machine",
+                                "url": "https://blog.lumalabs.ai/p/dream-machine"
+                            }
+                        ]
 
                     },
                     {
                         "title": "WWDC 24 Announcements",
                         "date": "2024/06/14",
-                        "summary": "Appleの新機能と製品、Apple Vision Proの日本発売やSiriのアップデート、GPT-4oへのアクセスを特集します。"
+                        "summary": "Appleの新機能と製品、Apple Vision Proの日本発売やSiriのアップデート、GPT-4oへのアクセスを特集します。",
+                        "links": [
+                            {
+                                "title": "Apple WWDC24",
+                                "url": "https://developer.apple.com/wwdc24/"
+                            }
+                        ]
                     },
                     {
                         "title": "OpenAI Security Report",
                         "date": "2024/06/14",
-                        "summary": "ロシアや北朝鮮の脅威アクターによる攻撃とその対策に関するセキュリティ報告。"
+                        "summary": "ロシアや北朝鮮の脅威アクターによる攻撃とその対策に関するセキュリティ報告。",
+                        "links": [
+                            {
+                                "title": "OpenAI Security Report",
+                                "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-by-state-affiliated-threat-actors/"
+                            }
+                        ]
                     }
                 ]
             },
@@ -865,17 +902,35 @@
                     {
                         "title": "Claude 3.5 Sonnet",
                         "date": "2024/06/21",
-                        "summary": "Claude3 Opusの半分のコストで、Claude3 Opus以上の性能を提供する新しいAI。"
+                        "summary": "Claude3 Opusの半分のコストで、Claude3 Opus以上の性能を提供する新しいAI。",
+                        "links": [
+                            {
+                                "title": "Claude 3.5 Sonnet",
+                                "url": "https://www.anthropic.com/news/claude-3-5-sonnet"
+                            }
+                        ]
                     },
                     {
                         "title": "ULID と UUID",
                         "date": "2024/06/21",
-                        "summary": "ULIDとUUIDの比較とそれぞれのメリットと欠点。"
+                        "summary": "ULIDとUUIDの比較とそれぞれのメリットと欠点。",
+                        "links": [
+                            {
+                                "title": "UUIDとULIDを理解していない方は見た方がいい記事",
+                                "url": "https://zenn.dev/kazu1/articles/e8a668d1d27d6b"
+                            }
+                        ]
                     },
                     {
                         "title": "ドワンゴ サイバー攻撃",
                         "date": "2024/06/21",
-                        "summary": "ドワンゴが受けたサイバー攻撃の詳細: ランサムウェアによる影響と対応策について。"
+                        "summary": "ドワンゴが受けたサイバー攻撃の詳細: ランサムウェアによる影響と対応策について。",
+                        "links": [
+                            {
+                                "title": "当社サービスへのサイバー攻撃に関するご報告とお詫び",
+                                "url": "https://dwango.co.jp/news/5131439897051136/?Category=%E3%83%97%E3%83%AC%E3%82%B9%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9&Term=2024"
+                            }
+                        ]
                     }
                 ]
             },
@@ -885,17 +940,35 @@
                     {
                         "title": "Figma Config 2024",
                         "date": "2024/06/28",
-                        "summary": "Figmaの新機能、デザインモックアップや画像生成、プロトタイプ化の技術革新を紹介"
+                        "summary": "Figmaの新機能、デザインモックアップや画像生成、プロトタイプ化の技術革新を紹介",
+                        "links": [
+                            {
+                                "title": "Config 2024 in review",
+                                "url": "https://www.figma.com/blog/config-2024-recap/"
+                            }
+                        ]
                     },
                     {
                         "title": "Recall (Windows11における全操作の記録する機能)",
                         "date": "2024/06/28",
-                        "summary": "Windows 11 に導入される予定の全操作の記録機能とそのセキュリティに関する詳細。"
+                        "summary": "Windows 11 に導入される予定の全操作の記録機能とそのセキュリティに関する詳細。",
+                        "links": [
+                            {
+                                "title": "TotalRecall",
+                                "url": "https://github.com/xaitax/TotalRecall"
+                            }
+                        ]
                     },
                     {
                         "title": "カドカワ サイバー攻撃の影響",
                         "date": "2024/06/28",
-                        "summary": "KADOKAWAが受けたサイバー攻撃の影響とその後の対応について"
+                        "summary": "KADOKAWAが受けたサイバー攻撃の影響とその後の対応について",
+                        "links": [
+                            {
+                                "title": "当社サービスのシステム障害における対応状況について",
+                                "url": "https://dwango.co.jp/news/5106365978640384/?Category=%E3%83%97%E3%83%AC%E3%82%B9%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9&Term=2024"
+                            }
+                        ]
                     }
                 ]
             }
@@ -912,17 +985,35 @@
                     {
                         "title": "都知事選候補者のGitHub Actions",
                         "date": "2024/07/05",
-                        "summary": "AIを用いて不適切コンテンツの自動検出や類似イシューの検索、自動記事化を行う試み。"
+                        "summary": "AIを用いて不適切コンテンツの自動検出や類似イシューの検索、自動記事化を行う試み。",
+                        "links": [
+                            {
+                                "title": "takahiroanno2024/election2024 - 都知事選マニフェスト",
+                                "url": "https://github.com/takahiroanno2024/election2024"
+                            }
+                        ]
                     },
                     {
                         "title": "tailscale",
                         "date": "2024/07/05",
-                        "summary": "簡単にVPNを構築できるサービスとして紹介"
+                        "summary": "簡単にVPNを構築できるサービスとして紹介",
+                        "links": [
+                            {
+                                "title": "Tailscale · Best VPN Service for Secure Networks",
+                                "url": "https://tailscale.com/"
+                            }
+                        ]
                     },
                     {
                         "title": "regreSSHion",
                         "date": "2024/07/05",
-                        "summary": "CVE-2024-6387。特定のOpenSSHバージョンに影響を与えるセキュリティ脆弱性が報告。"
+                        "summary": "CVE-2024-6387。特定のOpenSSHバージョンに影響を与えるセキュリティ脆弱性が報告。",
+                        "links": [
+                            {
+                                "title": "CVE-2024-6387",
+                                "url": "https://nvd.nist.gov/vuln/detail/cve-2024-6387"
+                            }
+                        ]
                     }
                 ]
             },
@@ -932,17 +1023,36 @@
                     {
                         "title": "PaintsUndo",
                         "date": "2024/07/12",
-                        "summary": "Lllyasvielによる新作で、制作過程を学習しタイムラプスを生成する。"
+                        "summary": "Lllyasvielによる新作で、制作過程を学習しタイムラプスを生成する。",
+                        "links": [
+                            {
+                                "title": "PaintsUndo: A Base Model of Drawing Behaviors in Digital Paintings",
+                                "url": "https://lllyasviel.github.io/pages/paints_undo/"
+                            }
+                        ]
                     },
                     {
                         "title": "OrbStack",
                         "date": "2024/07/12",
-                        "summary": "macOS専用のDocker/Linuxクライアントで、高速な起動と低リソース使用が特徴。"
+                        "summary": "macOS専用のDocker/Linuxクライアントで、高速な起動と低リソース使用が特徴。",
+                        "links": [
+                            {
+                                "title": "OrbStack",
+                                "url": "https://orbstack.dev/"
+                            }
+                        ]
                     },
                     {
                         "title": "Google フォームの共同編集設定に起因した情報流出",
                         "date": "2024/07/12",
-                        "summary": "特定の設定により、回答者の情報が外部から閲覧可能になる問題が指摘された。"
+                        "summary": "特定の設定により、回答者の情報が外部から閲覧可能になる問題が指摘された。",
+                        "links": [
+                            {
+                                "title": "Googleフォームの設定ミスによる情報漏えいが多発",
+                                "url": "https://devblog.lac.co.jp/entry/20240627"
+                            }
+                        ]
+
                     }
                 ]
             },
@@ -952,17 +1062,35 @@
                     {
                         "title": "SHIFT UP",
                         "date": "2024/07/19",
-                        "summary": "NIKEなどを制作している企業。所属するアーティストのAI活用が凄い。"
+                        "summary": "NIKEなどを制作している企業。所属するアーティストのAI活用が凄い。",
+                        "links": [
+                            {
+                                "title": "SHIFT UP",
+                                "url": "https://shiftup.co.kr/"
+                            }
+                        ]
                     },
                     {
                         "title": "GPT4-o mini",
                         "date": "2024/07/19",
-                        "summary": "GPT-4oの小型版がリリースされ、低コストで利用可能に。"
+                        "summary": "GPT-4oの小型版がリリースされ、低コストで利用可能に。",
+                        "links": [
+                            {
+                                "title": "GPT-4o mini: advancing cost-efficient intelligence",
+                                "url": "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/"
+                            }
+                        ]
                     },
                     {
                         "title": "GCP じゃなくて GCだよ！",
                         "date": "2024/07/19",
-                        "summary": "Google Cloud Platform ではなく Google Cloud だよという話"
+                        "summary": "Google Cloud Platform ではなく Google Cloud だよという話",
+                        "links": [
+                            {
+                                "title": "GCP という呼び名はもう古いので気をつける",
+                                "url": "https://zenn.dev/kou_pg_0131/articles/gcp-to-google-cloud"
+                            }
+                        ]
                     }
 
                 ]
@@ -973,17 +1101,35 @@
                     {
                         "title": "llama3.1",
                         "date": "2024/07/26",
-                        "summary": "OpenモデルがGPT-4oに肉薄する時代に。低パラメータモデルでもGemma 2 9Bを凌駕。"
+                        "summary": "OpenモデルがGPT-4oに肉薄する時代に。低パラメータモデルでもGemma 2 9Bを凌駕。",
+                        "links": [
+                            {
+                                "title": "Introducing Llama 3.1: Our most capable models to date",
+                                "url": "https://ai.meta.com/blog/meta-llama-3-1/"
+                            }
+                        ]
                     },
                     {
                         "title": "CrowdStrike",
                         "date": "2024/07/26",
-                        "summary": "新しいIPCテンプレートの不具合により、Windowsのクラッシュ。世界中でブルースクリーンが発生"
+                        "summary": "新しいIPCテンプレートの不具合により、Windowsのクラッシュ。世界中でブルースクリーンが発生",
+                        "links": [
+                            {
+                                "title": "Channel File 291 RCA Exec Summary",
+                                "url": "https://www.crowdstrike.com/falcon-content-update-remediation-and-guidance-hub/"
+                            }
+                        ]
                     },
                     {
                         "title": "ポカリスエット",
                         "date": "2024/07/26",
-                        "summary": "iPhoneのARKitとMeta Questを利用した新しい撮影手法"
+                        "summary": "iPhoneのARKitとMeta Questを利用した新しい撮影手法",
+                        "links": [
+                            {
+                                "title": "全力疾走に対応したARシステムで現実を拡張　ポカリスエットCM「潜在能力は君の中。」篇",
+                                "url": "https://cgworld.jp/regular/2410-314-pocaricm.html"
+                            }
+                        ]
                     }
                 ]
             }
@@ -1000,17 +1146,35 @@
                     {
                         "title": "LLM の性能",
                         "date": "2024/08/02",
-                        "summary": "オープンモデルがGPT-4oに匹敵する時代に突入しつつあり、クローズドLLMの性能上昇が停滞。LLMの性能評価の限界と新しい指標としてのゲームの可能性。"
+                        "summary": "オープンモデルがGPT-4oに匹敵する時代に突入しつつあり、クローズドLLMの性能上昇が停滞。LLMの性能評価の限界と新しい指標としてのゲームの可能性。",
+                        "links": [
+                            {
+                                "title": "X Posts(The Performance of LLMs)",
+                                "url": "https://x.com/MarcusSchwarze/status/1818618997023080801"
+                            }
+                        ]
                     },
                     {
                         "title": "GitHub Models",
                         "date": "2024/08/02",
-                        "summary": "GitHub Marketplaceで利用可能なトップAIモデルへのアクセスを提供。開発者は主要モデルを統合したPlaygroundでAIを試し、スマートアプリケーションの構築を支援"
+                        "summary": "GitHub Marketplaceで利用可能なトップAIモデルへのアクセスを提供。開発者は主要モデルを統合したPlaygroundでAIを試し、スマートアプリケーションの構築を支援",
+                        "links": [
+                            {
+                                "title": "GitHub Models",
+                                "url": "https://github.blog/jp/2024-08-02-introducing-github-models/"
+                            }
+                        ]
                     },
                     {
                         "title": "Chrome Security Update",
                         "date": "2024/08/02",
-                        "summary": "Chromeのダウンロード体験が再設計され、新たなUIで詳細なセキュリティ警告を表示。「疑わしい」と「危険」の2段階警告分類が導入され、暗号化アーカイブに対する新たな保護メカニズムが追加されました。"
+                        "summary": "Chromeのダウンロード体験が再設計され、新たなUIで詳細なセキュリティ警告を表示。「疑わしい」と「危険」の2段階警告分類が導入され、暗号化アーカイブに対する新たな保護メカニズムが追加されました。",
+                        "links": [
+                            {
+                                "title": "Building security into the redesigned Chrome downloads experience",
+                                "url": "https://security.googleblog.com/2024/07/building-security-into-redesigned.html"
+                            }
+                        ]
                     }
                 ]
             },
@@ -1020,17 +1184,35 @@
                     {
                         "title": "OpenAI API Structured Outputs",
                         "date": "2024/08/23",
-                        "summary": "JSON出力が保証され、Schemaも100%保証されるように改善。AIのアプリケーション導入が容易になり、特に4o-miniモデルが安価で使いやすい点が注目されました。"
+                        "summary": "JSON出力が保証され、Schemaも100%保証されるように改善。AIのアプリケーション導入が容易になり、特に4o-miniモデルが安価で使いやすい点が注目されました。",
+                        "links": [
+                            {
+                                "title": "Introducing Structured Outputs in the API",
+                                "url": "https://openai.com/index/introducing-structured-outputs-in-the-api/"
+                            }
+                        ]
                     },
                     {
                         "title": "Design Token",
                         "date": "2024/08/23",
-                        "summary": "W3CのDesign Tokens Community Groupがデザイントークンの仕様を策定中。異なる分野や技術間で共通のデザインの意思決定を表現し、組織間で共通の語彙を確立する方法論が提供されます。"
+                        "summary": "W3CのDesign Tokens Community Groupがデザイントークンの仕様を策定中。異なる分野や技術間で共通のデザインの意思決定を表現し、組織間で共通の語彙を確立する方法論が提供されます。",
+                        "links": [
+                            {
+                                "title": "Design Tokens Community Group",
+                                "url": "https://www.w3.org/community/design-tokens/"
+                            }
+                        ]
                     },
                     {
                         "title": "KADOKAWA Incident",
                         "date": "2024/08/23",
-                        "summary": "ランサムウェア攻撃により個人情報と企業情報が漏洩。原因は不明だがフィッシング攻撃が推測され、社外のセキュリティ企業の助言を基に対策を強化しています。"
+                        "summary": "ランサムウェア攻撃により個人情報と企業情報が漏洩。原因は不明だがフィッシング攻撃が推測され、社外のセキュリティ企業の助言を基に対策を強化しています。",
+                        "links": [
+                            {
+                                "title": "ランサムウェア攻撃による情報漏洩に関するお知らせ",
+                                "url": "https://www.kadokawa.co.jp/topics/12088/"
+                            }
+                        ]
                     }
                 ]
             },
@@ -1039,18 +1221,36 @@
                 "articles": [
                     {
                         "title": "ImageFX",
-                        "date": "2024/08/23",
-                        "summary": "Googleが画像生成AIをサイレントアップデートし、Imagen3を搭載。リアルな画像生成が可能となり、プロンプトへの忠実さが向上。"
+                        "date": "2024/08/30",
+                        "summary": "Googleが画像生成AIをサイレントアップデートし、Imagen3を搭載。リアルな画像生成が可能となり、プロンプトへの忠実さが向上。",
+                        "links": [
+                            {
+                                "title": "ImageFX",
+                                "url": "https://labs.google/fx/tools/image-fx"
+                            }
+                        ]
                     },
                     {
                         "title": "GameNGen",
-                        "date": "2024/08/23",
-                        "summary": "ニューラルモデルで動作するゲームエンジンが登場。ゲームプレイを学習し、生成AIのみでプレイが可能で、プレイヤー入力をToken化。"
+                        "date": "2024/08/30",
+                        "summary": "ニューラルモデルで動作するゲームエンジンが登場。ゲームプレイを学習し、生成AIのみでプレイが可能で、プレイヤー入力をToken化。",
+                        "links": [
+                            {
+                                "title": "Diffusion Models Are Real-Time Game Engines",
+                                "url": "https://gamengen.github.io/"
+                            }
+                        ]
                     },
                     {
-                        "title": "LoTL(Living of the Land)",
-                        "date": "2024/08/23",
-                        "summary": "正規の管理ツールや機能を用いて認証情報窃取やシステム情報収集を行うサイバー攻撃手法についての注意喚起されています。"
+                        "title": "LoTL(Living off The Land)",
+                        "date": "2024/08/30",
+                        "summary": "正規の管理ツールや機能を用いて認証情報窃取やシステム情報収集を行うサイバー攻撃手法についての注意喚起されています。",
+                        "links": [
+                            {
+                                "title": "Living Off The Land（LotL：環境寄生型）のサイバー攻撃",
+                                "url": "https://www.trendmicro.com/ja_jp/jp-security/23/h/securitytrend-20230825-01.html"
+                            }
+                        ]
                     }
                 ]
             }
@@ -1067,7 +1267,13 @@
                     {
                         "title": "Unity Muse - AI を使用したエディタ内プロトタイピング",
                         "date": "September 6, 2024",
-                        "summary": "AIを搭載したUnity Museが、Unity Editorでの制作をより速く、簡単に、柔軟にする方法を解説。チャット機能により、コード生成やアート、アニメーションの作成を支援。"
+                        "summary": "AIを搭載したUnity Museが、Unity Editorでの制作をより速く、簡単に、柔軟にする方法を解説。チャット機能により、コード生成やアート、アニメーションの作成を支援。",
+                        "links": [
+                            {
+                                "title": "Unity Muse – AIを使用したエディタ内プロトタイピング",
+                                "url": "https://www.youtube.com/watch?v=T6Avqw322Jc&t=1466s"
+                            }
+                        ]
                     },
                     {
                         "title": "その説明、コードコメントに書く？コミットメッセージに書く？ プルリクエストに書く？",
@@ -1100,17 +1306,35 @@
                     {
                         "title": "GitHub Copilot Tips",
                         "date": "September 13, 2024",
-                        "summary": "Cmd + i でインラインでCopilotとチャットし、関数に対するテストやドキュメントの追加が可能に。/explainで説明、/fixで修正する機能も。"
+                        "summary": "Cmd + i でインラインでCopilotとチャットし、関数に対するテストやドキュメントの追加が可能に。/explainで説明、/fixで修正する機能も。",
+                        "links": [
+                            {
+                                "title": "Configuring GitHub Copilot in your environment",
+                                "url": "https://docs.github.com/en/copilot/managing-copilot/configure-personal-settings/configuring-github-copilot-in-your-environment"
+                            }
+                        ]
                     },
                     {
                         "title": "Reader by Jina",
                         "date": "September 13, 2024",
-                        "summary": "HTML to Markdown サービス"
+                        "summary": "HTML to Markdown サービス",
+                        "links": [
+                            {
+                                "title": "Reader | Jina AI",
+                                "url": "https://jina.ai/reader/"
+                            }
+                        ]
                     },
                     {
                         "title": "YubiKey 5の脆弱性",
                         "date": "September 13, 2024",
-                        "summary": "YubiKey 5にサイドチャネル攻撃でセキュリティが破られる脆弱性が発見。通常の使用では問題はない。"
+                        "summary": "YubiKey 5にサイドチャネル攻撃でセキュリティが破られる脆弱性が発見。通常の使用では問題はない。",
+                        "links": [
+                            {
+                                "title": "Security Advisory YSA-2024-03",
+                                "url": "https://www.yubico.com/support/security-advisories/ysa-2024-03/"
+                            }
+                        ]
                     }
                 ]
             },
@@ -1120,17 +1344,35 @@
                     {
                         "title": "OpenAI o1-preview",
                         "date": "September 20, 2024",
-                        "summary": "新たなAI能力のスケーリングパラダイムが始まる。特にSTEM分野における能力が飛躍的に向上。o1はGPT-2モデルに相当するとの評価。"
+                        "summary": "新たなAI能力のスケーリングパラダイムが始まる。特にSTEM分野における能力が飛躍的に向上。o1はGPT-2モデルに相当するとの評価。",
+                        "links": [
+                            {
+                                "title": "Introducing OpenAI o1-preview",
+                                "url": "https://openai.com/index/introducing-openai-o1-preview/"
+                            }
+                        ]
                     },
                     {
                         "title": "Third Party Cookie 廃止の廃止",
                         "date": "September 20, 2024",
-                        "summary": "かつて「Web の歴史上最大の破壊的変更」と言われたThird Party Cookieの廃止が撤回されることに。"
+                        "summary": "かつて「Web の歴史上最大の破壊的変更」と言われたThird Party Cookieの廃止が撤回されることに。",
+                        "links": [
+                            {
+                                "title": "3PCA 29 日目: Privacy Sandbox の方針転換は何を意味するか",
+                                "url": "https://blog.jxck.io/entries/2024-07-31/deprecating-the-deprecation.html"
+                            }
+                        ]
                     },
                     {
                         "title": "AISI (AI Safety Institute)",
                         "date": "September 20, 2024",
-                        "summary": "AIシステム・サービスの開発・提供・利用において、不正操作によって AIの振る舞いに意図せぬ変更又は停止が生じることのないように、セキュリティを確保する"
+                        "summary": "AIシステム・サービスの開発・提供・利用において、不正操作によって AIの振る舞いに意図せぬ変更又は停止が生じることのないように、セキュリティを確保する",
+                        "links": [
+                            {
+                                "title": "AISI Japan - AI Safety Institute",
+                                "url": "https://aisi.go.jp/"
+                            }
+                        ]
                     }
 
                 ]
@@ -1140,7 +1382,7 @@
     {
         "month": "October",
         "slug": "october",
-        "summary": "10月は技術の進展とセキュリティの革新が強調される。主要企業間の原発の利用、リアルタイムAPIの導入、AI技術の進化が注目される一方で、パスワード管理やCMS商標問題についても議論が巻き起こる。",
+        "summary": "複数の大手IT企業が小型モジュール炉（SMR）の電力調達で動きを見せる",
         "weeks": [
             {
                 "weekNumber": 1,
@@ -1148,17 +1390,35 @@
                     {
                         "title": "Realtime API by OpenAI",
                         "date": "October 4, 2024",
-                        "summary": "ネイティブ音声合成テキストの仲介がないため、低遅延で、ニュアンスに富んだ出力が得られる"
+                        "summary": "ネイティブ音声合成テキストの仲介がないため、低遅延で、ニュアンスに富んだ出力が得られる",
+                        "links": [
+                            {
+                                "title": "Introducing the Realtime API",
+                                "url": "https://openai.com/index/introducing-the-realtime-api/"
+                            }
+                        ]
                     },
                     {
                         "title": "Time Ghost",
                         "date": "October 4, 2024",
-                        "summary": "Unity6 の リアルタイム シネマティックデモ"
+                        "summary": "Unity6 の リアルタイム シネマティックデモ",
+                        "links": [
+                            {
+                                "title": "Time Ghost",
+                                "url": "https://unity.com/demos/time-ghost"
+                            }
+                        ]
                     },
                     {
                         "title": "「WP Engine」からの遮断を一時停止",
                         "date": "October 4, 2024",
-                        "summary": "WordPressとWP Engineの騒動。OSS周りの問題が最近多いため話題に取り上げた。"
+                        "summary": "WordPressとWP Engineの騒動。OSS周りの問題が最近多いため話題に取り上げた。",
+                        "links": [
+                            {
+                                "title": "「WP Engine」からの遮断を一時停止 - WordPress.org",
+                                "url": "https://www.security-next.com/162380"
+                            }
+                        ]
                     }
                 ]
             },
@@ -1168,17 +1428,35 @@
                     {
                         "title": "原発利用での新たな動き",
                         "date": "October 18, 2024",
-                        "summary": "グーグル、アマゾン、マイクロソフトが小型モジュール炉（SMR）の電力調達で動きを見せる。"
+                        "summary": "グーグル、アマゾン、マイクロソフトが小型モジュール炉（SMR）の電力調達で動きを見せる。",
+                        "links": [
+                            {
+                                "title": "Hungry for Energy, Amazon, Google and Microsoft Turn to Nuclear Power",
+                                "url": "https://www.nytimes.com/2024/10/16/business/energy-environment/amazon-google-microsoft-nuclear-energy.html"
+                            }
+                        ]
                     },
                     {
                         "title": "Nixの機能と利点",
                         "date": "October 18, 2024",
-                        "summary": "純粋関数型のパッケージマネージャーとして、宣言的な環境管理と高い再現性を提供。"
+                        "summary": "純粋関数型のパッケージマネージャーとして、宣言的な環境管理と高い再現性を提供。",
+                        "links": [
+                            {
+                                "title": "Nix & NixOS | Declarative builds and deployments",
+                                "url": "https://nixos.org/"
+                            }
+                        ]
                     },
                     {
-                        "title": "NISTの発表- パスワードポリシーの変革",
+                        "title": "NISTのパスワードポリシー勧告",
                         "date": "October 18, 2024",
-                        "summary": "米国立標準技術研究所が、パスワードの定期的な変更を求めないよう勧告し、パスワード管理の見直しを促す。"
+                        "summary": "米国立標準技術研究所が、パスワードの定期的な変更を求めないよう勧告し、パスワード管理の見直しを促す。",
+                        "links": [
+                            {
+                                "title": "NIST Special Publication 800-63-3",
+                                "url": "https://pages.nist.gov/800-63-3/sp800-63-3.html"
+                            }
+                        ]
                     }
                 ]
             },
@@ -1188,17 +1466,35 @@
                     {
                         "title": "Anthropicの新機能「computer use」",
                         "date": "October 25, 2024",
-                        "summary": "AIがユーザーのコマンドに従いコンピュータの操作をエミュレートする機能が追加され、AIの直接対話の可能性を拓く。"
+                        "summary": "AIがユーザーのコマンドに従いコンピュータの操作をエミュレートする機能が追加され、AIの直接対話の可能性を拓く。",
+                        "links": [
+                            {
+                                "title": "Introducing computer use, a new Claude 3.5 Sonnet, and Claude 3.5 Haiku",
+                                "url": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+                            }
+                        ]
                     },
                     {
                         "title": "VRM国際標準化への協力",
                         "date": "October 25, 2024",
-                        "summary": "米国KHRONOSグループとVRMコンソーシアムが3Dアバターファイル形式「VRM」の国際標準化に向けて協力を発表。"
+                        "summary": "米国KHRONOSグループとVRMコンソーシアムが3Dアバターファイル形式「VRM」の国際標準化に向けて協力を発表。",
+                        "links": [
+                            {
+                                "title": "The Khronos Group and VRM Consortium Collaborate to Advance International Standardization of the VRM 3D Avatar File Format",
+                                "url": "https://www.khronos.org/news/press/the-khronos-group-and-vrm-consortium-collaborate-to-advance-international-standardization-of-the-vrm-3d-avatar-file-format"
+                            }
+                        ]
                     },
                     {
                         "title": "セキュリティツール「Burp」の活用法",
                         "date": "October 25, 2024",
-                        "summary": "ペンテストやセキュリティテストでの通信観察ツール「Burp」の試用と、その留意点について議論。"
+                        "summary": "ペンテストやセキュリティテストでの通信観察ツール「Burp」の試用と、その留意点について議論。",
+                        "links": [
+                            {
+                                "title": "Burp Suite",
+                                "url": "https://portswigger.net/burp"
+                            }
+                        ]
                     }
                 ]
             }
@@ -1207,7 +1503,7 @@
     {
         "month": "November",
         "slug": "november",
-        "summary": "11月は技術とAIの革新に焦点が当てられています",
+        "summary": "フィッシングの話題が多く取り上げられた",
         "weeks": [
             {
                 "weekNumber": 1,
@@ -1421,7 +1717,7 @@
     {
         "month": "December",
         "slug": "december",
-        "summary": "技術の進展とセキュリティに関するニュースが豊富な月",
+        "summary": "GoogleのAIの勢いが止まらない。",
         "weeks": [
             {
                 "weekNumber": 1,
