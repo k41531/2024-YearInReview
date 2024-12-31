@@ -714,17 +714,35 @@
                     {
                         "title": "Agent Hospital: LLMの自立エージェントが病院生活をシミュレート",
                         "date": "2024/05/10",
-                        "summary": "医療的質問への回答精度が向上する自立エージェントのシミュレーションが行われた。"
+                        "summary": "医療的質問への回答精度が向上する自立エージェントのシミュレーションが行われた。",
+                        "links": [
+                            {
+                                "title": "Agent Hospital: A Simulacrum of Hospital with Evolvable Medical Agents",
+                                "url": "https://arxiv.org/abs/2405.02957"
+                            }
+                        ]
                     },
                     {
                         "title": "NiloToonURP: 最近の3Dモデル用Toon Shader",
                         "date": "2024/05/10",
-                        "summary": "ホロライブ等のライブでよく使われるToon ShaderがUnity用に提供。"
+                        "summary": "ホロライブ等のライブでよく使われるToon ShaderがUnity用に提供。",
+                        "links": [
+                            {
+                                "title": "ColinLeung-NiloCat/UnityURPToonLitShaderExample",
+                                "url": "https://github.com/ColinLeung-NiloCat/UnityURPToonLitShaderExample"
+                            }
+                        ]
                     },
                     {
-                        "title": "Known Exploited Vulnerabilities Catalogの重要性",
+                        "title": "KEV(Known Exploited Vulnerabilities Catalog)の紹介",
                         "date": "2024/05/10",
-                        "summary": "既知の悪用された脆弱性カタログ、既に悪用が確認されている脆弱性の一覧なので速急な対応が求められる。"
+                        "summary": "既知の悪用された脆弱性カタログ、既に悪用が確認されている脆弱性の一覧なので速急な対応が求められる。",
+                        "links": [
+                            {
+                                "title": "Known Exploited Vulnerabilities Catalog | CISA",
+                                "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+                            }
+                        ]
                     }
                 ]
             },
@@ -734,12 +752,24 @@
                     {
                         "title": "GPT-4oを発表",
                         "date": "2024/05/17",
-                        "summary": "GPT-4oはテキスト、ビジョン、オーディオの全てをカバー。Omni (全体の、全ての、などの意)"
+                        "summary": "GPT-4oはテキスト、ビジョン、オーディオの全てをカバー。Omni (全体の、全ての、などの意)",
+                        "links": [
+                            {
+                                "title": "Hello GPT-4o",
+                                "url": "https://openai.com/index/hello-gpt-4o/"
+                            }
+                        ]
                     },
                     {
                         "title": "Google I/O (Gemini 1.5 Pro/Flash , PaliGemma)",
                         "date": "2024/05/17",
-                        "summary": "Gemini 1.5 Pro は低遅延と低コストを特徴とし、PaliGemmaなどの新技術が発表された。"
+                        "summary": "Gemini 1.5 Pro は低遅延と低コストを特徴とし、PaliGemmaなどの新技術が発表された。",
+                        "links": [
+                            {
+                                "title": "Vertex AI I/O announcements: Gemini and Gemma models",
+                                "url": "https://cloud.google.com/blog/ja/products/ai-machine-learning/vertex-ai-io-announcements?hl=ja"
+                            }
+                        ]
                     }
                 ]
             },
@@ -749,20 +779,38 @@
                     {
                         "title": "逆チューリングテスト",
                         "date": "2024/05/31",
-                        "summary": "AI(4体)と人間(1人)で、誰が人間かを当てる実験が行われた。"
+                        "summary": "AI(4体)と人間(1人)で、誰が人間かを当てる実験が行われた。",
+                        "links": [
+                            {
+                                "title": "Reverse Turing Test Experiment with AIs",
+                                "url": "https://www.youtube.com/watch?v=MxTWLm9vT_o"
+                            }
+                        ]
                     },
                     {
                         "title": "Unity Muse: AIを使用したUnity Editorでのプロトタイピングの高速化",
                         "date": "2024/05/31",
-                        "summary": "Unity Museはプロンプトでテクスチャを作成し、リファレンスなども使用できるAI機能を提供。"
+                        "summary": "Unity Museはプロンプトでテクスチャを作成し、リファレンスなども使用できるAI機能を提供。",
+                        "links": [
+                            {
+                                "title": "Unity Muse",
+                                "url": "https://muse.unity.com/"
+                            }
+                        ]
                     },
                     {
                         "title": "生成AIでウイルス作成の危険性",
                         "date": "2024/05/28",
-                        "summary": "生成AIを使ってウイルス作成が可能か、法律的な観点からの考察が続く。"
+                        "summary": "生成AIを使ってウイルス作成が可能か、法律的な観点からの考察が続く。",
+                        "links": [
+                            {
+                                "title": "生成AIでランサムウェアを作成した容疑者の摘発事例を考察",
+                                "url": "https://www.trendmicro.com/ja_jp/jp-security/24/e/breaking-securitynews-20240529-02.html"
+                            }
+                        ]
                     }
                 ]
-            },
+            }
         ]
     },
     {
@@ -875,7 +923,7 @@
                         "title": "regreSSHion",
                         "date": "2024/07/05",
                         "summary": "CVE-2024-6387。特定のOpenSSHバージョンに影響を与えるセキュリティ脆弱性が報告。"
-                    },
+                    }
                 ]
             },
             {
@@ -1346,7 +1394,7 @@
                         "summary": "CEDEC Kyushu 2024 の スクエアエニックス, CEDEC 2024 の Cygames などで活用方法が紹介されている",
                         "links": [
                             {
-                                "title": "ゲーム会社の業務効率化に生成AIは役立つか？ | CEDEC Kyushu 2024",
+                                "title": "ゲーム会社の業務効率化に生成AIは役立つか? | CEDEC Kyushu 2024",
                                 "url": "https://cedec-kyushu.jp/2024/session/19.html"
                             },
                             {
@@ -1367,7 +1415,7 @@
                         ]
                     }
                 ]
-            },
+            }
         ]
     },
     {
